@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <title>Mac Miller club de fans</title>
         <meta charset="utf-8">
-        
+        <link rel="stylesheet" type="text/css" href="../common.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,44 +12,25 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-        
     </head>
-
-    <body style="background-color: #5c74a1;">
+    <body>
         <header>
-            <a href="C:\Users\Usuari\Desktop\HTML\Webclubfans\index.html"><img src="C:\Users\Usuari\Desktop\HTML\Webclubfans\img\logo2.png " alt="logo" style="width:200px;"></a>
-            <nav style="margin-left: 500px; font-size: 50px; font-family: 'Londrina Solid';  margin-top: -70px; text-transform: uppercase;">
-                <a href="C:\Users\Usuari\Desktop\HTML\Webclubfans\index.html" style="margin-right: 10px;  color: #CCB2C4;"><b>I</b>nici</a>
-                <a href="C:\Users\Usuari\Desktop\HTML\Webclubfans\web\general.html" style="margin-right: 10px; color: #CCB2C4;"><b>G</b>eneral</a>
-                <a href="C:\Users\Usuari\Desktop\HTML\Webclubfans\web\imatges.html" style="margin-right: 10px; color: #CCB2C4;"><b>F</b>otos</a>
-                <a href="C:\Users\Usuari\Desktop\HTML\Webclubfans\web\videos.html" style="margin-right: 10px; color: #CCB2C4;"><b>V</b>ideos</a>
-                <a href="C:\Users\Usuari\Desktop\HTML\Webclubfans\web\Agenda.html" style="margin-right: 10px; color: #CCB2C4;"><b>A</b>genda</a>
-                <a href="C:\Users\Usuari\Desktop\HTML\Webclubfans\web\Contacte.html" style="margin-right: 10px; color: #FEC135;"><b>C</b>ontacte</a>
-            </nav>
+                    <a href="../index.html"><img class="logo" src="../img/logo2.png" alt="logo"></a>
+                <nav class="menu">
+                    <a class="enllaçmenu" href="../index.html"><b>I</b>nici</a>
+                    <a class="enllaçmenu" href="../web/general.html"><b>G</b>eneral</a>
+                    <a class="enllaçmenu" href="../web/imatges.html"><b>F</b>otos</a>
+                    <a class="enllaçmenu" href="../web/videos.html"><b>V</b>ideos</a>
+                    <a class="enllaçmenu" href="../web/Agenda.html"><b>A</b>genda</a>
+                    <a class="enllaçmenu" href="../web/Contacte.html"><b>C</b>ontacte</a>
+                </nav>
         </header>
-
-        <form action="enivar.php" method="post" style=" color: #FEC135;">
-            <ul style="font-family: 'Londrina Solid'">
-             <li>
-               <label for="name">Correu electrònic:</label>
-               <input type="text" id="name" name="user_name" placeholder="Gmail" size="25" maxlength="30">
-             </li>
-             <li>
-                <label for="name">Nom i Cognoms:</label>
-                <input type="text" id="nomcognom" name="user_name" placeholder="Nom" maxlength="30">
-             </li>
-             <li>
-                <label for="name">Descripció</label>
-                <input type="text" id="descripcio" name="user_name" placeholder="Descripció" maxlength="30">
-             </li>
-            </ul>
-           </form>
-
-        <iframe  style=" margin-top: 150px; width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.712586165697!2d2.147251215425552!3d41.38032877926483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a27e1225c2c5%3A0x96cedbdb8cbf24d8!2sC%2F%20d&#39;Arag%C3%B3%2C%2024%2C%2008015%20Barcelona!5e0!3m2!1ses!2ses!4v1634029231577!5m2!1ses!2ses"  height="450"  allowfullscreen="" loading="lazy"></iframe>
-        <h1 style="font-family: 'Londrina Solid'; color: #FEC135; margin-left: 1550px; margin-top: 10px;">C/ Aragó 08015 Barcelona</h1>
-        <h2 style="font-family: 'Londrina Solid'; font-size: 30px; margin-left: 25px; color: #FEC135; margin-top: -60px;">696353424</h2>
-
-        <footer><p style="font-family: 'Londrina Solid'; margin-top: 50px; color: #CCB2C4; margin-left: 800px; ">Copyright 2021© <a style="font-family: 'Londrina Solid';  color: #CCB2C4;" href="https://www.instagram.com/macmiller/?hl=es" target="_blank">@macmiller</a> @MacMillerFansClub</p></footer>
-        
-    </body>
+<main>
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.712586165697!2d2.147251215425552!3d41.38032877926483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a27e1225c2c5%3A0x96cedbdb8cbf24d8!2sC%2F%20d&#39;Arag%C3%B3%2C%2024%2C%2008015%20Barcelona!5e0!3m2!1ses!2ses!4v1634029231577!5m2!1ses!2ses"  allowfullscreen="" loading="lazy"></iframe>
+            <div class="textpeu">
+                <h1>C/ Aragó 24 08015 Barcelona | TEL:696353424</h1>
+            </div>
+</main>
+<footer id="peuweb">Copyright 2021© <a id="enllaç" href="https://www.instagram.com/macmiller/?hl=es" target="_blank" >@macmiller</a> @MacMillerFansClub<img id="logo2" src="../img/instagram.png" alt="logoinstagram"></footer>
+</body>
 </html>

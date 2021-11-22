@@ -1,0 +1,170 @@
+body{
+    background-color: #5c74a1;
+    width: 100%;
+}
+
+.fotos{
+    margin-top: 200px;
+    width: 600px;
+}
+
+.divfotos{
+    text-align: center;
+    color: #CCB2C4;
+    font-family: 'Londrina Solid';
+    font-size: 20px;
+}
+.menu{
+    font-size : 50px;
+    font-family: 'Londrina Solid';
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.enllaçmenu{
+    font-size : 50px;
+    font-family: 'Londrina Solid';
+    text-decoration: none;
+    color: #CCB2C4;
+}
+
+.enllaç2{
+    text-decoration: none;
+}
+
+#foto1{
+    width: 45%;
+    margin-top: 250px;
+    margin-left: 5%;
+
+}
+
+.videos{
+    width: 600px;
+    
+}
+
+.bodyvideo{
+    text-align: center;
+    margin-top: 280px;
+    font-family: 'Londrina Solid';
+    font-size: 25px;
+}
+
+.enllaç3{
+    text-decoration: none;
+    color: #CCB2C4;
+    border: solid 2px  #CCB2C4;
+    padding: 15px;
+}
+
+.logo{
+    width: 170px;
+}
+
+#article{
+    width: 35%;
+    margin-top: -560px;
+    margin-left: 55%;
+    font-family: 'Open Sans', sans-serif;
+    border: solid 5px  #FEC135;
+    padding: 30px;
+}
+
+#peuweb{
+    text-align: center;
+    margin-top: 440px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #CCB2C4;
+}
+
+.textpeu{
+    font-family: 'Londrina Solid';
+    color: #FEC135;
+}
+
+#enllaç{
+    text-decoration: none;
+    color: #CCB2C4;
+
+}
+
+#logo2{
+    
+    width: 20px;
+   margin-left: 20px;
+   color: #FEC135;
+    
+}
+
+#mapa{
+    margin-top: 200px;
+    height: 500px;
+    width: 100%;
+}
+
+
+
+.concerts{
+    
+    margin: auto;
+    margin-top: 320px;
+    font-size : 40px;
+    font-family: 'Londrina Solid';
+    color: #FEC135;
+}
+
+#entradas{
+    text-align: center;
+    margin-top: 150px;
+    font-size : 30px;
+    font-family: 'Londrina Solid';
+  
+}
+
+#enllaçentradas{
+    text-decoration: none;
+    color: #CCB2C4;
+    font-size: 50px;
+    border: solid 2px  #CCB2C4;
+    padding: 15px;
+}
+
+.paragrafs1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 300px;
+    color: #CCB2C4;
+}
+
+.paragrafs2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 70px;
+    color: #CCB2C4;
+}
+
+#discografia{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 150px;
+    color: #CCB2C4;
+}
+
+#llistadiscografia{
+    list-style-type:none;
+}
+
+#vinil{
+    
+    width: 400px;
+}
+
+#divvinil{
+    margin-top: 250px;
+    text-align: center;
+}
+
+
+
