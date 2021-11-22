@@ -28,11 +28,19 @@
             </nav>
         </header>
 
-        <form action="/my-handling-form-page" method="post" style="margin-top: 50px;">
-            <ul style="font-family: 'Londrina Solid';">
+        <form action="enivar.php" method="post" style=" color: #FEC135;">
+            <ul style="font-family: 'Londrina Solid'">
              <li>
                <label for="name">Correu electrònic:</label>
-               <input type="text" id="name" name="user_name">
+               <input type="text" id="name" name="user_name" placeholder="Gmail" size="25" maxlength="30">
+             </li>
+             <li>
+                <label for="name">Nom i Cognoms:</label>
+                <input type="text" id="nomcognom" name="user_name" placeholder="Nom" maxlength="30">
+             </li>
+             <li>
+                <label for="name">Descripció</label>
+                <input type="text" id="descripcio" name="user_name" placeholder="Descripció" maxlength="30">
              </li>
             </ul>
            </form>
